@@ -14,14 +14,12 @@ print("The answer is: ", end="")
 
 if (choice == 1):
 	print(x + y)
+elif (choice == 2):
+	print(x - y)
+elif (choice == 3):
+	print(x*y)
+elif (choice == 4):
+	print(x/y)
 else:
-	if (choice == 2):
-		print(x - y)
-	else:
-		if (choice == 3):
-			print(x * y)
-		else:
-			if (choice == 4):
-				print(x/y)
-			else:
-				print("Invalid choice.")
+	print("Invalid choice\n")
+
